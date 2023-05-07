@@ -1,4 +1,9 @@
-# `node-esm-ts-poc`
+# `@DeividasJackus/node-starter`
+
+A Node Starter consisting of:
+- Base: ESM + TypeScript
+- Formatting: EditorConfig + XO + Prettier
+- Frontend: Next.js + TailwindCSS
 
 ## Implementation
 
@@ -17,4 +22,4 @@ npm init xo
 
 ## Inspiration
 
-https://dev.to/aderchox/create-a-pure-nodejs-and-typescript-app-getting-node-fetch-esm-only-version-3-up-and-running-31jh
+- https://github.com/DeividasJackus/node-esm-ts-poc
