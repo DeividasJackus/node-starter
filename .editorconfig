@@ -1,0 +1,25 @@
+# Editor configuration, see http://editorconfig.org
+root                      = true
+
+[*]
+charset                   = utf-8
+end_of_line               = lf
+indent_style              = space
+indent_size               = 2
+insert_final_newline      = true
+trim_trailing_whitespace  = true
+
+[*.sh]
+shell_variant             = bash   # -ln: language variant to parse (bash/posix/mksh/bats)
+binary_next_line          = true   # -bn: binary ops like && and | may start a line
+switch_case_indent        = true   # -ci: switch cases will be indented
+space_redirects           = false  # -sr: redirect operators will be followed by a space
+keep_padding              = true   # -kp: keep column alignment paddings
+function_next_line        = false  # -fn: function opening braces are placed on a separate line
+
+# [Makefile]
+indent_style              = tab
+
+# [*.md]
+max_line_length           = off
+trim_trailing_whitespace  = false
