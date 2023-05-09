@@ -1,4 +1,7 @@
 {
 	"bracketSpacing": true,
-	"prettier": true
+	"prettier": true,
+	"rules": {
+		"capitalized-comments": "off"
+	}
 }
