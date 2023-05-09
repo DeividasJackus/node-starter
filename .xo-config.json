@@ -2,6 +2,7 @@
 	"bracketSpacing": true,
 	"prettier": true,
 	"rules": {
-		"capitalized-comments": "off"
+		"capitalized-comments": "off",
+		"n/file-extension-in-import": "off"
 	}
 }

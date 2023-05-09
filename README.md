@@ -1,6 +1,7 @@
 # `@DeividasJackus/node-starter`
 
 A Node Starter consisting of:
+
 - Base: ESM + TypeScript
 - Formatting: EditorConfig + XO + Prettier
 - Frontend: Next.js + TailwindCSS
@@ -13,7 +14,7 @@ npx gitignore node
 
 npm init -y
 
-npm -D i typescript tsx prettier xo
+npm -D i typescript tsx prettier xo @types/node dotenv @types/dotenv
 npm i node-fetch
 
 npx tsc --init

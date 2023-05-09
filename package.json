@@ -24,6 +24,9 @@
     "node-fetch": "^3.3.1"
   },
   "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.1.1",
+    "dotenv": "^16.0.3",
     "prettier": "^2.8.8",
     "rimraf": "^5.0.0",
     "tsx": "^3.12.7",
